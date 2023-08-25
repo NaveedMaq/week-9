@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res)=> {
-  res.send('<h1>Todo Api</h1>')
+  res.json({message: "test modified"})
 })
 
 app.use("/admin", adminRouter)
