@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res)=> {
-  res.json({message: "222222222"})
+  res.json({message: "3333333"})
 })
 
 app.use("/admin", adminRouter)
